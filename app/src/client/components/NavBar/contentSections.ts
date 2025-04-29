@@ -6,6 +6,4 @@ export const appNavigationItems: NavigationItem[] = [
   { name: 'AI Scheduler (Demo App)', to: routes.DemoAppRoute.to },
   { name: 'File Upload (AWS S3)', to: routes.FileUploadRoute.to },
   { name: 'Pricing', to: routes.PricingPageRoute.to },
-  { name: 'Documentation', to: DocsUrl },
-  { name: 'Blog', to: BlogUrl },
 ];

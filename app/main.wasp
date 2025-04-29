@@ -1,14 +1,14 @@
-app OpenSaaS {
+app MindFrame {
   wasp: {
     version: "^0.16.0"
   },
 
-  title: "My Open SaaS App",
+  title: "MindFrama",
 
   head: [
     "<meta charset='utf-8' />",
     "<meta name='description' content='Your apps main description and features.' />",
-    "<meta name='author' content='Your (App) Name' />",
+    "<meta name='author' content='MindFrama by Daniel' />",
     "<meta name='keywords' content='saas, solution, product, app, service' />",
     
     "<meta property='og:type' content='website' />",
@@ -37,7 +37,7 @@ app OpenSaaS {
       //   (RequestPasswordReset(Route|Page), PasswordReset(Route|Page), EmailVerification(Route|Page))
       email: {
         fromField: {
-          name: "Open SaaS App",
+          name: "MindFrama",
           email: "me@example.com"
         },
         emailVerification: {

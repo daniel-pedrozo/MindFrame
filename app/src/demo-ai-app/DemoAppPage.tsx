@@ -21,7 +21,7 @@ export default function DemoAppPage() {
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
         <div className='mx-auto max-w-4xl text-center'>
           <h2 className='mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl dark:text-white'>
-            <span className='text-yellow-500'>AI</span> Day Scheduler
+            <span className='text-yellow-500'>Look in</span> reminder
           </h2>
         </div>
         <p className='mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600 dark:text-white'>

@@ -8,31 +8,31 @@ export const landingPageNavigationItems: NavigationItem[] = [
   { name: 'Features', to: '#features' },
   { name: 'Pricing', to: routes.PricingPageRoute.to },
   { name: 'Documentation', to: DocsUrl },
-  { name: 'Blog', to: BlogUrl },
+
 ];
 export const features = [
   {
-    name: 'Cool Feature #1',
-    description: 'Describe your cool feature here.',
-    icon: '🤝',
+    name: 'What You Focus On',
+    description: 'Career. Health. Discipline. You decide.',
+    icon: '✅',
     href: DocsUrl,
   },
   {
-    name: 'Cool Feature #2',
-    description: 'Describe your cool feature here.',
-    icon: '🔐',
+    name: 'Why It Matters',
+    description: 'Anchor to your reasons. Stay rooted when motivation wavers.',
+    icon: '✅',
     href: DocsUrl,
   },
   {
-    name: 'Cool Feature #3',
-    description: 'Describe your cool feature here.',
-    icon: '🥞',
+    name: 'How You Get Reminded',
+    description: 'Emails. WhatsApp. Your call. Always timed to your life, never random.',
+    icon: '✅',
     href: DocsUrl,
   },
   {
-    name: 'Cool Feature #4',
-    description: 'Describe your cool feature here.',
-    icon: '💸',
+    name: 'Dashboard Power',
+    description: 'View goals. Edit them. Track your streaks. All in one place.',
+    icon: '✅',
     href: DocsUrl,
   },
 ];
@@ -71,7 +71,7 @@ export const faqs = [
 export const footerNavigation = {
   app: [
     { name: 'Documentation', href: DocsUrl },
-    { name: 'Blog', href: BlogUrl },
+    { name: 'Social midia', href: BlogUrl },
   ],
   company: [
     { name: 'About', href: 'https://wasp.sh' },
